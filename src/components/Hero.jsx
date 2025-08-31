@@ -46,7 +46,7 @@ const Hero = () => {
 
 
     const startValue = isMobile ? 'top 50%' : 'center 60%'; // when the top/center of the video reaches 50%/60% of the screen it starts
-    const endValue = isMobile ? '120% top' : 'bottom top'; // 120% of the video passes the top of the screen, it ends
+    const endValue = isMobile ? '190% top' : 'bottom top'; // 120% of the video passes the top of the screen, it ends
 
     // Video animation timeline
     const tl = gsap.timeline({
