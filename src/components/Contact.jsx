@@ -3,6 +3,9 @@ import { openingHours, socials } from "../../constants/index.js"
 import { SplitText } from "gsap/all"
 import gsap from "gsap"
 
+import footerRightLeaf from "../../public/images/footer-right-leaf.png"
+import footerLeftLeaf from "../../public/images/footer-left-leaf.png"
+
 const Contact = () => {
   useGSAP(() => {
     const titleSplit = SplitText.create('#contact h2', { type: "words" })
@@ -36,8 +39,8 @@ const Contact = () => {
 
   return (
     <footer id="contact">
-      <img src="/images/footer-right-leaf.png" alt="leaf-right" id="f-right-leaf" />
-      <img src="/images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" />
+      <img src={footerRightLeaf} alt="leaf-right" id="f-right-leaf" />
+      <img src={footerLeftLeaf} alt="leaf-left" id="f-left-leaf" />
 
       <div className="content">
         <h2>Where to Find Us</h2>

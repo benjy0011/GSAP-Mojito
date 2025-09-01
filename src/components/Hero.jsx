@@ -4,6 +4,11 @@ import { SplitText } from "gsap/all";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 
+import heroLeftLeaf from "../../public/images/hero-left-leaf.png"
+import herorRightLeaf from "../../public/images/hero-right-leaf.png"
+
+import glassVideo from "../../public/videos/output.mp4"
+
 const Hero = () => {
   const videoRef = useRef(null);
 
@@ -72,13 +77,13 @@ const Hero = () => {
         <h1 className="title">MOJITO</h1>
 
         <img
-          src="/images/hero-left-leaf.png"
+          src={heroLeftLeaf}
           alt="left-leaf"
           className="left-leaf"
         />
 
         <img
-          src="/images/hero-right-leaf.png"
+          src={herorRightLeaf}
           alt="right-leaf"
           className="right-leaf"
         />
@@ -106,7 +111,7 @@ const Hero = () => {
       <div className="video absolute inset-0">
         <video
           ref={videoRef}
-          src="/videos/output.mp4"
+          src={glassVideo}
           muted
           playsInline // no track bar, volume bar etc.
           preload="auto"

@@ -2,6 +2,12 @@ import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { SplitText } from "gsap/all"
 
+import Abt1 from "../../public/images/abt1.png"
+import Abt2 from "../../public/images/abt2.png"
+import Abt5 from "../../public/images/abt5.png"
+import Abt3 from "../../public/images/abt3.png"
+import Abt4 from "../../public/images/abt4.png"
+
 const About = () => {
   useGSAP(() => {
     const titleSplit = SplitText.create('#about h2', {
@@ -58,27 +64,27 @@ const About = () => {
 
         <div className="md:col-span-3">
           <div className="noisy" />
-          <img src="/images/abt1.png" alt="grid-img-1" />
+          <img src={Abt1} alt="grid-img-1" />
         </div>
 
         <div className="md:col-span-6">
           <div className="noisy" />
-          <img src="/images/abt2.png" alt="grid-img-2" />
+          <img src={Abt2} alt="grid-img-2" />
         </div>
 
         <div className="md:col-span-3">
           <div className="noisy" />
-          <img src="/images/abt5.png" alt="grid-img-5" />
+          <img src={Abt5} alt="grid-img-5" />
         </div>
 
         <div className="md:col-span-8">
           <div className="noisy" />
-          <img src="/images/abt3.png" alt="grid-img-3" />
+          <img src={Abt3} alt="grid-img-3" />
         </div>
 
         <div className="md:col-span-4">
           <div className="noisy" />
-          <img src="/images/abt4.png" alt="grid-img-4" />
+          <img src={Abt4} alt="grid-img-4" />
         </div>
 
       </div>
