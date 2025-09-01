@@ -6,8 +6,8 @@ Link:
 🔗[Click here to view](https://benjy0011.github.io/GSAP-Mojito/)
 
 Quick View:
-![mojito-project (1)](https://github.com/user-attachments/assets/eae37ce7-0728-471e-914f-32ac56c281ce)
+![mojito-project (1)](https://github.com/user-attachments/assets/1a3475e5-2987-48de-bb1a-2d6ee95fd542)
 
 
 Credit to:
-🔗[Tutorials] https://www.youtube.com/watch?v=AW1yfBKRMKc&t=203s
+🔗[Tutorials](https://www.youtube.com/watch?v=AW1yfBKRMKc&t=203s)
