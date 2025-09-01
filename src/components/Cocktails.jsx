@@ -1,7 +1,6 @@
 import { useGSAP } from "@gsap/react"
 import { cocktailLists, mockTailLists } from "../../constants/Index"
 import gsap from "gsap"
-import { ScrollTrigger } from "gsap/all"
 
 const Cocktails = () => {
   useGSAP(() => {
