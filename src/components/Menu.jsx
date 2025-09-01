@@ -58,8 +58,8 @@ const Menu = () => {
 
   return (
     <section id="menu" aria-labelledby="menu-heading">
-      <img src="/images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf" />
-      <img src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" />
+      <img src="public/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf" />
+      <img src="public/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" />
 
       <h2 id="menu-heading" className="sr-only">Cocktails Menu</h2>
 
@@ -83,12 +83,12 @@ const Menu = () => {
         <div className="arrows">
           <button className="text-left md:ml-15" onClick={() => goToSlide(currentIndex - 1)}>
             <span>{prevCocktail.name}</span>
-            <img src="/images/right-arrow.png" alt="right-arrow" arai-hidden="true" />
+            <img src="public/images/right-arrow.png" alt="right-arrow" arai-hidden="true" />
           </button>
 
           <button className="text-left" onClick={() => goToSlide(currentIndex + 1)}>
             <span>{nextCocktail.name}</span>
-            <img src="/images/left-arrow.png" alt="left-arrow" arai-hidden="true" />
+            <img src="public/images/left-arrow.png" alt="left-arrow" arai-hidden="true" />
           </button>
         </div>
 
